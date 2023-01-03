@@ -50,6 +50,7 @@ public class Application {
             order.addOrderItem(orderItem);
         }
 
+        order.saveOrder();
         System.out.println("\n" + order);
 
         scanner.close();

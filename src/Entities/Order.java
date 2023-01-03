@@ -1,5 +1,8 @@
 package Entities;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -64,6 +67,15 @@ public class Order {
         return total;
     }
 
+    public void saveOrder() {
+        String path = "C:\\Users\\ffdin\\IdeaProjects\\Store-Orders\\resources\\orders.txt";
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
+            bw.write(String.valueOf(this));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public String toString() {
         StringBuilder stb = new StringBuilder();
         stb.append("----------------------------------------------------------");
@@ -79,5 +91,4 @@ public class Order {
         stb.append("\n----------------------------------------------------------");
         return stb.toString();
     }
-
 }

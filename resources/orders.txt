@@ -1,0 +1,18 @@
+----------------------------------------------------------
+RESUMO DO PEDIDO:
+Pedido feito em: 30/12/2022 22:50:39
+Order status: SHIPPED
+Cliente: Flávia Amaral Diniz (04/05/1984) - flaviaadiniz@gmail.com
+Itens do pedido:
+Produto: Vestido | Preço: R$129.0 | Quantidade: 2 | Subtotal: R$258.0
+Produto: Blusa | Preço: R$79.0 | Quantidade: 3 | Subtotal: R$237.0
+Preço total: R$495.0
+--------------------------------------------------------------------------------------------------------------------
+RESUMO DO PEDIDO:
+Pedido feito em: 02/01/2023 21:45:11
+Order status: SHIPPED
+Cliente: Marcela Frota (17/09/1988) - marcelasfrota@gmail.com
+Itens do pedido:
+Produto: Tênis Adidas Superstar | Preço: R$299.0 | Quantidade: 1 | Subtotal: R$299.0
+Preço total: R$299.0
+----------------------------------------------------------
